@@ -29,25 +29,32 @@
           >
           <ul class="site-nav list">
             <li><a href="./index.html" class="link">Студія</a></li>
-            <li>
-              <a href="./portfolio.html" class="link current">Портфоліо</a>
-            </li>
+            <li><a href="./portfolio.html" class="link current">Портфоліо</a></li>
             <li><a href="" class="link">Контакти</a></li>
           </ul>
         </nav>
         <!--Contacts-->
         <ul class="header-contacts">
-          <li>
-            <a href="mailto:info@devstudio.com" class="item"
-              >info@devstudio.com</a
+          <li class="contacts-item">
+            <a href="mailto:info@devstudio.com" class="contacts-link">
+              <svg class="contacts-icon" width="16px" height="16px">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
-          <li>
-            <a href="tel:+380961111111" class="item">+38 096 111 11 11</a>
+          <li class="contacts-item">
+            <a href="tel:+380961111111" class="contacts-link">
+              <svg class="contacts-icon" width="16px" height="16px">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
     </header>
+    <!-- MAIN -->
     <main>
       <section class="section">
         <div class="container">
@@ -169,7 +176,8 @@
     </main>
     <!---Footer-->
     <footer class="footer">
-      <div class="container">
+      <div class="container footer">
+        <div class="contacts">
         <a href="./index.html" class="logo"
           >Web<span class="footer-logo">Studio</span></a
         >
@@ -196,6 +204,40 @@
             </li>
           </ul>
         </address>
+      </div>
+        <div class="follow">
+          <h3 class="title">Приєднуйтесь</h3>
+          <ul class="follow-list">
+            <li class="follow-item">
+              <a href="" class="follow-link">
+                <svg class="follow-icon" width="20px" height="20px">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="follow-item">
+              <a href="" class="follow-link">
+                <svg class="follow-icon" width="20px" height="20px">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="follow-item">
+              <a href="" class="follow-link">
+                <svg class="follow-icon" width="20px" height="20px">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="follow-item">
+              <a href="" class="follow-link">
+                <svg class="follow-icon" width="20px" height="20px">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
