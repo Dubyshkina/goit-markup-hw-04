@@ -130,7 +130,7 @@ img{
   align-items: center;
 
   margin-left:auto;
-  gap: 50px;
+  gap: 30px;
   /* letter-spacing: 0.02em; */
 }
 .header-contacts .contacts-link {
@@ -160,8 +160,7 @@ img{
   background-size:cover;
   background-position: center;
   background-repeat: no-repeat;
-
-
+  
   padding-top:200px;
   padding-bottom:200px;
 
@@ -249,15 +248,6 @@ img{
   display:flex;
   gap: 30px;
 }
-
-.quality-items{
-  max-width: 270px;
-  width: 100%;
-
-  font-size: 14px;
-  line-height: 1.71;
-  
-}
 .quality-img {
   
   width: 270px;
@@ -279,7 +269,10 @@ img{
   line-height: 1.14;
   text-transform: uppercase;
 }
-
+.quality-text{
+  font-size: 14px;
+  line-height: 1.71;
+}
 /* Services */
 .section.services{
   padding-top: 0;
@@ -359,6 +352,7 @@ img{
 .team-soc-link:focus .team-soc-icon {
   fill: var(--primary-white-color);
 }
+/* Clients */
 .clients-list{
   list-style-type: none;
   display:flex;
@@ -380,19 +374,17 @@ img{
   justify-content: center;
   align-items: center;
 }
-.clients-icon{
-  fill: var(--icon-fill-color);
-}
 .clients-link:hover,
-.clients-link:focus{
+.clients-link:focus {
   border-color:var(--accent-color)
 }
-.clients-link:hover .clients-icon{
+.clients-icon{
+  fill:var(--icon-fill-color);
+}
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
   fill: var(--accent-color);
 }
-
-
-
 /* Footer */
 .footer {
   background-color: var(--footer-background-color);
@@ -402,6 +394,7 @@ img{
 .container.footer{
   display: flex;
   padding: 0 15px;
+  align-items: baseline;
   
 }
 .logo .footer-logo {
@@ -440,7 +433,6 @@ img{
   color: var(--accent-color);
 }
 .follow{
-  padding-top: 12px;
   margin-left:73px;
 }
 .follow .title {
